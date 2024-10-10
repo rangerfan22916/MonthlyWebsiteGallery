@@ -1,0 +1,103 @@
+/* General Body Styling */
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #4a90e2;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-text {
+    font-weight: bold;
+    color: white;
+}
+
+/* Header and Welcome Section */
+header {
+    border-bottom: 2px solid #dcdcdc;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #4a90e2;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+/* Card Section Styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #4a90e2;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #357ABD;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+    .card-title {
+        font-size: 1.3rem;
+    }
+    
+    .navbar-text {
+        font-size: 0.9rem;
+    }
+}
